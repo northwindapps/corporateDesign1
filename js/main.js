@@ -5,7 +5,8 @@ const faders = document.querySelectorAll(".fade-in");
 
 const sectionOneOptions = {
     //https://stackoverflow.com/questions/58622664/intersectionobserver-how-rootmargin-work
-    rootMargin: "0px 0px 0px 0px",
+    threshold: 0,
+    rootMargin: "40px"
   };
   
   const sectionOneObserver = new IntersectionObserver(function(
